@@ -18,7 +18,7 @@ namespace FactoryConsole
         }
 
         public string MonNom { get; private set; }
-        public string NomParent { get; set; }
+        public string NomParent { get; private set; }
 
     }
 }
